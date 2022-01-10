@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+.grid {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav-link {
+  margin: 10px;
+  border-right: 1px solid black;
+}
+.nav-link :hover {
+  color: #ffc6ff;
+  padding: 10px;
+}
+.index {
+  background-color: #ffc6ff;
+}
+.shoppinglist-items {
+  background-color: #f9da84;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+h2 {
+  padding: 10px;
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+/* Nav Area */
+.top-bar {
+  width: 100%;
+  margin-top: 0;
+  position: relative;
+  height: 80px;
+  text-align: right;
+}
+#title {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  display: inline-block;
+  height: 100%;
+}
+.nav {
+  height: 100%;
+  display: inline-block;
+}
+.nav a {
+  margin: 0 20px;
+  font-size: 120%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styles for Cards */
+.card {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border: 1.25px solid #9a0680;
+  border-radius: 16px;
+  margin: 10px;
+  transition: 0.5s all;
+  --shadow: transparent;
+  box-shadow: 0 0 10px 5px var(--shadow);
+  position: relative;
+  font-size: 100%;
+}
+
+.card:hover {
+  --shadow: rgba(53, 53, 53, 0.432);
+  /* transform: rotateY(180deg) translate(20px, 20px);
+  background: pink; */
+}
+
+.card:hover .main-content {
+  pointer-events: initial;
+  opacity: 1;
+}
+
+.card * {
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main-content {
+  padding: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s all;
+}
+
+.food-name {
+  font-weight: bold;
+  font-size: 130%;
+}
+
+h5.food-name {
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  text-shadow: 0px 0px 4px black;
+}
+.time-left {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  font-size: 120%;
+  text-shadow: 0px 0px 10px rgb(255, 0, 0);
+}
+.info ul {
+  padding: 10px;
+  padding-top: 0px;
+  border-radius: 7px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.info {
+  color: rgb(83, 83, 83);
+  position: relative;
+  overflow: hidden;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.btn-container {
+  text-align: right;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 90%;
+  letter-spacing: 1px;
+  transition: 0.5s all;
+  outline: solid 2px #a0c4ff;
+  border: 2px solid #333;
+  box-shadow: 0px 0px 5px #333, inset 0px 0px 2px #333;
+}
+
+.btn:hover {
+  background: var(--accent);
+  color: rgb(46, 212, 212);
+}
+.button {
+  background-color: #ffb703;
+}
+.edit.btn {
+  --accent: #a0c4ff;
+  outline: solid 2px #a0c4ff;
+  margin: 10px;
+}
+.add.btn:hover {
+  background-color: #ffffff;
+}
+.add.btn {
+  --accent: #bdb2ff;
+  outline: solid 2px #707070;
+  background-color: #bdb2ff;
+}
+.add-to-shopping {
+  --accent: #ffe45e;
+  outline: solid 2px #ddc652;
+}
+
+.delete.btn {
+  --accent: #f78383;
+  outline: solid 2px #cf4e4e;
+
+  margin: 10px;
+}
+
+/* Delete food */
+.food-container {
+  width: 100%;
+}
+
+.confirmation-box.show {
+  display: block;
+}
