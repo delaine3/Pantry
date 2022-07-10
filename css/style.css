@@ -289,6 +289,18 @@ li {
 .confirmation-box.show {
   display: block;
 }
+.measurement{
+  border-radius: 9px;
+  border: 1px rgb(176, 176, 247) solid;
+  background-color: rgba(255, 255, 255, 0.329);
+  box-shadow: #ffcd8c46 2px 2px 5px 5px;
+  padding: 7px;
+}
+.measurement:hover{
+  background-color: rgba(126, 195, 255, 0.466);
+  box-shadow: #d457f346 2px 2px 5px 5px;
+
+}
 @media only screen and (max-width: 600px) {
 nav a {
   font-size: small;

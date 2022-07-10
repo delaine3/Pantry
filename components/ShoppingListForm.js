@@ -162,7 +162,7 @@ const ShoppingListForm = ({
         />
 
         <label htmlFor="quantity">Quantity</label>
-        <button onClick={() => setMetric(!metric)}>
+        <button className="measurement" onClick={() => setMetric(!metric)}>
           {metric ? "Metric" : "Imperial"}
         </button>
         {metric ? (
