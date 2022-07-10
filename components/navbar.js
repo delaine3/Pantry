@@ -13,7 +13,7 @@ export default function Navbar() {
             </Link>
             <a
           id="portfolio"
-          href="https://delaine-abner-portfolio.vercel.app/"
+          href="https://delaine-abner-portfolio.vercel.app/webProjects"
         >
           Back to Portfolio
         </a>
