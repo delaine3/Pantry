@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(
+      #ffc6ff,
+      #ffe4c6,
+      #f5c6ff
+    );
+  
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow-x: hidden;
+  }
 .grid {
   margin-top: 10px;
   display: flex;
@@ -14,12 +33,8 @@
   color: #ffc6ff;
   padding: 10px;
 }
-.index {
-  background-color: #ffc6ff;
-}
-.shoppinglist-items {
-  background-color: #f9da84;
-}
+
+
 * {
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
@@ -100,7 +115,7 @@ h2 {
 .card img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit:cover;
 }
 
 .main-content {
