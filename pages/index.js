@@ -22,13 +22,12 @@ const Pantry = ({ foods }) => {
 
   return (
     <div className="index">
-     
       <h1 id="pantry-title">Pantry</h1>
-        <Link href="/new">
-          <button className="btn add">
-            <a>Add Food To Pantry</a>
-          </button>
-        </Link>
+      <Link href="/new">
+        <button className="btn add">
+          <a>Add Food To Pantry</a>
+        </button>
+      </Link>
 
       <section>
         <h2>EXPIRED</h2>
@@ -65,7 +64,7 @@ const Pantry = ({ foods }) => {
                             className="add-to-shopping"
                           >
                             <button className="btn add-to-shopping">
-                              addToShoppingList
+                              Add to Shopping List{" "}
                             </button>
                           </Link>
                           <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -140,7 +139,7 @@ const Pantry = ({ foods }) => {
                             className="add-to-shopping"
                           >
                             <button className="btn add-to-shopping">
-                              addToShoppingList
+                              Add to Shopping List
                             </button>
                           </Link>
                           <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -200,7 +199,7 @@ const Pantry = ({ foods }) => {
                               className="add-to-shopping"
                             >
                               <button className="btn add-to-shopping">
-                                addToShoppingList
+                                Add to Shopping List
                               </button>
                             </Link>
                             <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -263,7 +262,7 @@ const Pantry = ({ foods }) => {
                               className="add-to-shopping"
                             >
                               <button className="btn add-to-shopping">
-                                addToShoppingList
+                                Add to Shopping List{" "}
                               </button>
                             </Link>
                             <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -326,7 +325,7 @@ const Pantry = ({ foods }) => {
                               className="add-to-shopping"
                             >
                               <button className="btn add-to-shopping">
-                                addToShoppingList
+                                Add to Shopping List{" "}
                               </button>
                             </Link>
                             <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -389,7 +388,7 @@ const Pantry = ({ foods }) => {
                               className="add-to-shopping"
                             >
                               <button className="btn add-to-shopping">
-                                addToShoppingList
+                                Add to Shopping List
                               </button>
                             </Link>
                             <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -452,7 +451,7 @@ const Pantry = ({ foods }) => {
                               className="add-to-shopping"
                             >
                               <button className="btn add-to-shopping">
-                                addToShoppingList
+                                Add to Shopping List
                               </button>
                             </Link>
                             <Link href="/[id]/edit" as={`/${food._id}/edit`}>
@@ -515,7 +514,7 @@ const Pantry = ({ foods }) => {
                               className="add-to-shopping"
                             >
                               <button className="btn add-to-shopping">
-                                addToShoppingList
+                                Add to Shopping List
                               </button>
                             </Link>
                             <Link href="/[id]/edit" as={`/${food._id}/edit`}>
