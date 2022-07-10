@@ -22,15 +22,12 @@ const ShoppinglistItems = ({ items }) => {
 
   return (
     <div className="shoppinglist-items">
-      <h1>
-        Shopping List
-        <br />
-        <Link href="/shoppinglistForm">
-          <button className="btn add">
-            <a>Add Item to Shoppinglist</a>
-          </button>
-        </Link>
-      </h1>
+      <h1 id="shopping-list-title"> Shopping List</h1>
+      <Link href="/shoppinglistForm">
+        <button className="btn add">
+          <a>Add Item to Shoppinglist</a>
+        </button>
+      </Link>
 
       <section>
         <h2>Dairy</h2>

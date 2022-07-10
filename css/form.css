@@ -1,5 +1,7 @@
 form {
   margin: auto;
+  top: 60px;
+  width: 50%;
 }
 input,
 form button,
@@ -46,3 +48,7 @@ form button {
 a {
   text-decoration: none;
 }
+
+
+
+

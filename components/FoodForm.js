@@ -119,7 +119,7 @@ const Form = ({ formId, foodForm, forNewFood = true }) => {
   return (
     <>
       <form id={formId} onSubmit={handleSubmit}>
-        <h1>Pantry</h1>
+        <h1 id="pantry">Pantry</h1>
         <h2>Insert the details of your your food to add it to your pantry.</h2>
         <label htmlFor="name">Name</label>
         <input

@@ -22,16 +22,13 @@ const Pantry = ({ foods }) => {
 
   return (
     <div className="index">
-      <h1>
-        Pantry
-        <br />
+     
+      <h1 id="pantry-title">Pantry</h1>
         <Link href="/new">
           <button className="btn add">
             <a>Add Food To Pantry</a>
           </button>
         </Link>
-      </h1>
-      <br />
 
       <section>
         <h2>EXPIRED</h2>
