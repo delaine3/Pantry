@@ -147,7 +147,7 @@ const ShoppingListForm = ({
   return (
     <>
       <form id={formId} onSubmit={handleSubmit}>
-        <h1>Shopping List</h1>
+        <h1 id="shopping-list-title">Shopping List</h1>
         <h2>
           Insert the details of your your food to add it to your shopping list.
         </h2>
